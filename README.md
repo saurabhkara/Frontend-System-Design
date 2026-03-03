@@ -18,13 +18,17 @@ In small folder sturcture does not matter much but in large scale application.
 ## Different Type of Folder Stucture
 
 - Layer based Structure(Traditional)
+
   ![alt text](image.png)
   - Files are grouped by type(Layer) like component services, utils, styles
   - Suitable for small project
+
 - Feature based Structure
+
   ![alt text](image-1.png)
   - Not suitable for large project
 
 - Hybrid Structure
+
   ![alt text](image-2.png)
   Combination of layer based + feature based
