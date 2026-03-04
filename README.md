@@ -43,3 +43,33 @@ In small folder sturcture does not matter much but in large scale application.
 - Code becomees self explaintory
 - New developers will understand the purpuse of code quickly
 - Avoid duplicacy code
+
+### Folder Naming Rule
+
+- Use lowercase, meaningful and plural names
+  - eg. components, images, pages
+
+### File Naming Rules
+
+- Component and Pages files name should be in Pascal case.
+  - eg. Header.jsx, LoginForm.jsx
+- Non-component files should be in Non-Pascal case.
+  - eg. authService.js, applicant.js
+
+### Variable Naming Rules
+
+- Use Camel-case and boolean variable name should start with is, has and can.
+  - eg. username, isLoggedIn
+
+### Function Naming Rules
+
+- use Camel-Case and meaningful name
+  - eg. calculateTotalPrice();
+
+### Description and Comment Rules
+
+- Always add description and comment for files, function, components. To avoid copy-pasting, for quick understanding of file, function and components
+- Always write rule in RULES.md or README.md file
+  ![alt text](image-3.png)
+  ![alt text](image-4.png)
+  ![alt text](image-5.png)
