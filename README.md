@@ -31,4 +31,15 @@ In small folder sturcture does not matter much but in large scale application.
 - Hybrid Structure
 
   ![alt text](image-2.png)
-  Combination of layer based + feature based
+  - Combination of layer based + feature based
+
+## Naming Convention and Documentation
+
+- Easy to maintain
+- Team friendly
+- You quickly remember what the function or file performing
+- Less time spent on understaning the old code
+- Faster code fixing
+- Code becomees self explaintory
+- New developers will understand the purpuse of code quickly
+- Avoid duplicacy code
