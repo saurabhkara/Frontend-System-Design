@@ -70,6 +70,7 @@ In small folder sturcture does not matter much but in large scale application.
 
 - Always add description and comment for files, function, components. To avoid copy-pasting, for quick understanding of file, function and components
 - Always write rule in RULES.md or README.md file
+
   ![alt text](image-3.png)
   ![alt text](image-4.png)
   ![alt text](image-5.png)
