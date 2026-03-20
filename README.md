@@ -73,3 +73,24 @@ In small folder sturcture does not matter much but in large scale application.
   - ![alt text](image-3.png)
   - ![alt text](image-4.png)
   - ![alt text](image-5.png)
+
+## API Architecture and Service layer
+
+When people talk about API architecture and a service layer in React, they’re really talking about how to organize data fetching, business logic, and communication with backend APIs in a clean, scalable way.
+
+- Separates UI from data logic
+- Keeps API calls reusable
+- Makes error handling consistent
+- Scales as your app grows
+
+A good architecture usually has:
+`components → hooks → services → API client → backend`
+
+Benefits:
+
+- Separation of concerns: UI → components (Logic → hooks) API → services
+- Reusability: Same API call used across multiple components
+- Testability: You can test services independently
+- Maintainability: Change API once → updates everywhere
+
+## Centralized API Error handling & Toaster Message
