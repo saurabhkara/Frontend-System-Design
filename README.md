@@ -94,3 +94,9 @@ Benefits:
 - Maintainability: Change API once → updates everywhere
 
 ## Centralized API Error handling & Toaster Message
+
+Error should be handled very carefully, so that we need to handle on every page. Create Single Error handler and reuse it to every page.
+
+## Feature Based Routing and Lazy Loading
+
+Feature-based routing in a React frontend system design is a way of organizing routes around features (domains) instead of technical layers (like pages, components, utils). It’s especially useful in large-scale apps where scalability, maintainability, and team ownership matter.
